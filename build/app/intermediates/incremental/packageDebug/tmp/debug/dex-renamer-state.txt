@@ -1,0 +1,4 @@
+#Mon Jul 25 11:18:39 AMT 2022
+base.0=/home/lerson/Freela/jogo_da_forca/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
