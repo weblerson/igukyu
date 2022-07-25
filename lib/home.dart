@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         appBar: AppBar(title: const Text("Jogo da Forca")),
         body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-          const Dummy(),
+          const Flexible(child: Dummy()),
           const VerticalPadding(height: 100),
           Padding(
               padding: const EdgeInsets.only(left: 10, right: 10),
@@ -40,10 +40,10 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: Panels.instance.list,
               )),
-          const VerticalPadding(height: 50),
+          const VerticalPadding(height: 20),
           const Hint(),
           const VerticalPadding(height: 10),
-          const Keyboard(),
+          const Flexible(child: Keyboard()),
           const VerticalPadding(height: 10),
           const Text(
             "PROG 4",
