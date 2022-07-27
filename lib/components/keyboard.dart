@@ -78,28 +78,30 @@ class _ButtonState extends State<Button> {
                         : Colors.red,
                 child: Text(txt),
                 onPressed: () {
-                  ScaffoldMessenger.of(context).clearSnackBars();
-                  controller.disabled ? null : controller.testLetter();
-                  HintController.instance.testErrors();
-                  PanelController.instance.testWord(txt);
+                  if (controller.error == null) {
+                    ScaffoldMessenger.of(context).clearSnackBars();
+                    controller.disabled ? null : controller.testLetter();
+                    HintController.instance.testErrors();
+                    PanelController.instance.testWord(txt);
 
-                  Results.instance.totalWords++;
+                    Results.instance.totalWords++;
 
-                  if (Words.instance.word.contains(txt)) {
-                    Results.instance.correctWords++;
-                  } else {
-                    Results.instance.wrongWords++;
-                  }
+                    if (Words.instance.word.contains(txt)) {
+                      Results.instance.correctWords++;
+                    } else {
+                      Results.instance.wrongWords++;
+                    }
 
-                  if (ImageController.instance.errors == 6) {
-                    Results.instance.victory = false;
-                    Navigator.of(context).pushReplacementNamed("/result");
-                  }
+                    if (ImageController.instance.errors == 6) {
+                      Results.instance.victory = false;
+                      Navigator.of(context).pushReplacementNamed("/result");
+                    }
 
-                  if (!PanelController.instance.success
-                      .any((element) => !element)) {
-                    Results.instance.victory = true;
-                    Navigator.of(context).pushReplacementNamed("/result");
+                    if (!PanelController.instance.success
+                        .any((element) => !element)) {
+                      Results.instance.victory = true;
+                      Navigator.of(context).pushReplacementNamed("/result");
+                    }
                   }
 
                   final snackBar = SnackBar(

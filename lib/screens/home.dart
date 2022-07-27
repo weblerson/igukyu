@@ -10,6 +10,8 @@ import 'package:jogo_da_forca/components/keyboard.dart';
 
 import 'package:jogo_da_forca/data/words.dart';
 
+import 'package:jogo_da_forca/utils/game.dart';
+
 import 'package:jogo_da_forca/utils/panel.dart';
 
 class HomePage extends StatefulWidget {
@@ -23,6 +25,8 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+
+    Game.reset();
 
     Panels.instance.clear();
     Words.instance.setWord();
@@ -61,6 +65,16 @@ class _HomePageState extends State<HomePage> {
               const VerticalPadding(height: 10),
               const Keyboard(),
               const VerticalPadding(height: 10),
+              // ignore: deprecated_member_use
+              FlatButton(
+                  color: Colors.cyan,
+                  onPressed: () {
+                    Game.reset();
+
+                    Navigator.of(context).pushReplacementNamed('/menu');
+                  },
+                  child: const Text("Voltar ao menu.")),
+              const VerticalPadding(height: 5),
               const Text(
                 "PROG 4",
                 style: TextStyle(fontSize: 22.0),

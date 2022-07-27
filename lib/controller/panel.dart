@@ -22,7 +22,7 @@ class PanelController extends ChangeNotifier {
   }
 
   void reset() {
-    success = [];
+    success.clear();
 
     return;
   }

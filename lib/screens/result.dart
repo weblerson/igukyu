@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:jogo_da_forca/components/padding.dart';
 
-import 'package:jogo_da_forca/controller/image.dart';
-import 'package:jogo_da_forca/controller/hint.dart';
-import 'package:jogo_da_forca/controller/panel.dart';
+import 'package:jogo_da_forca/utils/game.dart';
 
 import 'package:jogo_da_forca/data/results.dart';
 
@@ -54,20 +52,32 @@ class _ResultPageState extends State<ResultPage> {
                     Text(
                         "Total de letras erradas: ${Results.instance.wrongWords}."),
                     const VerticalPadding(height: 30),
-                    SizedBox(
-                      width: 100,
-                      // ignore: deprecated_member_use
-                      child: FlatButton(
-                          color: Colors.cyan,
-                          onPressed: () {
-                            Results.instance.reset();
-                            ImageController.instance.reset();
-                            HintController.instance.reset();
-                            PanelController.instance.reset();
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        // ignore: deprecated_member_use
+                        FlatButton(
+                            minWidth: 100,
+                            color: Colors.cyan,
+                            onPressed: () {
+                              Game.reset();
 
-                            Navigator.of(context).pushReplacementNamed("/");
-                          },
-                          child: const Center(child: Text("Reiniciar"))),
+                              Navigator.of(context).pushReplacementNamed("/");
+                            },
+                            child: const Center(child: Text("Reiniciar"))),
+                        const HorizontalPadding(width: 10),
+                        // ignore: deprecated_member_use
+                        FlatButton(
+                            minWidth: 100,
+                            color: Colors.cyan,
+                            onPressed: () {
+                              Game.reset();
+
+                              Navigator.of(context)
+                                  .pushReplacementNamed('/menu');
+                            },
+                            child: const Text("Menu Principal"))
+                      ],
                     ),
                   ]),
             )

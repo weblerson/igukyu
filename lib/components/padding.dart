@@ -11,3 +11,15 @@ class VerticalPadding extends StatelessWidget {
     );
   }
 }
+
+class HorizontalPadding extends StatelessWidget {
+  final double width;
+  const HorizontalPadding({Key? key, required this.width}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: width,
+    );
+  }
+}
