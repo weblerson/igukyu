@@ -1,4 +1,4 @@
-#Mon Jul 25 11:21:51 AMT 2022
-base.0=/home/lerson/Freela/jogo_da_forca/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Tue Jul 26 16:49:30 AMT 2022
+base.0=/home/lerson/Freela/igukyu/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

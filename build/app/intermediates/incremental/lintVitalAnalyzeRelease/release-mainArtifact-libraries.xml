@@ -1,8 +1,8 @@
 <libraries>
   <library
-      name="__local_aars__:/home/lerson/Freela/jogo_da_forca/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/lerson/Freela/jogo_da_forca/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/lerson/Freela/jogo_da_forca/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/home/lerson/Freela/igukyu/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/home/lerson/Freela/igukyu/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/home/lerson/Freela/igukyu/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
       name="io.flutter:flutter_embedding_release:1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187@jar"
       jars="/home/lerson/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187/b1ef772a67fd82e70fd46706bfaa99a9976a86f0/flutter_embedding_release-1.0.0-e85ea0e79c6d894c120cda4ee8ee10fe6745e187.jar"

@@ -4,10 +4,10 @@
     minSdkVersion="16"
     targetSdkVersion="31"
     shrinking="true"
-    mergedManifest="/home/lerson/Freela/jogo_da_forca/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    manifestMergeReport="/home/lerson/Freela/jogo_da_forca/build/app/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/home/lerson/Freela/jogo_da_forca/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2:/home/lerson/Dev/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/home/lerson/Freela/jogo_da_forca/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="/home/lerson/Freela/igukyu/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/home/lerson/Freela/igukyu/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/home/lerson/Freela/igukyu/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2:/home/lerson/Dev/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/lerson/Freela/igukyu/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -30,9 +30,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/home/lerson/Freela/jogo_da_forca/build/app/intermediates/javac/release/classes:/home/lerson/Freela/jogo_da_forca/build/app/tmp/kotlin-classes/release:/home/lerson/Freela/jogo_da_forca/build/app/kotlinToolingMetadata:/home/lerson/Freela/jogo_da_forca/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/home/lerson/Freela/igukyu/build/app/intermediates/javac/release/classes:/home/lerson/Freela/igukyu/build/app/tmp/kotlin-classes/release:/home/lerson/Freela/igukyu/build/app/kotlinToolingMetadata:/home/lerson/Freela/igukyu/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.example.jogo_da_forca"
-      generatedSourceFolders="/home/lerson/Freela/jogo_da_forca/build/app/generated/ap_generated_sources/release/out:/home/lerson/Freela/jogo_da_forca/build/app/generated/aidl_source_output_dir/release/out:/home/lerson/Freela/jogo_da_forca/build/app/generated/source/buildConfig/release:/home/lerson/Freela/jogo_da_forca/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/home/lerson/Freela/jogo_da_forca/build/app/generated/res/rs/release:/home/lerson/Freela/jogo_da_forca/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/home/lerson/Freela/igukyu/build/app/generated/ap_generated_sources/release/out:/home/lerson/Freela/igukyu/build/app/generated/aidl_source_output_dir/release/out:/home/lerson/Freela/igukyu/build/app/generated/source/buildConfig/release:/home/lerson/Freela/igukyu/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/home/lerson/Freela/igukyu/build/app/generated/res/rs/release:/home/lerson/Freela/igukyu/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

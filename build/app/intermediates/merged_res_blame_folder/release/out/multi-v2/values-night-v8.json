@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lerson/Freela/jogo_da_forca/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/lerson/Freela/igukyu/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/lerson/Freela/jogo_da_forca/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/lerson/Freela/igukyu/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
